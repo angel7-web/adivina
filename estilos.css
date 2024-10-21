@@ -69,3 +69,57 @@ font-size: 1rem;
     text-align: right;
     font-weight: bold;
 }
+
+/* Para pantallas de hasta 768px (tablets y móviles en modo horizontal) */
+@media (max-width: 768px) {
+    .titulo {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #inputNumero {
+        width: 4rem;
+        font-size: 0.875rem;
+    }
+
+    #botonAdivinar, #botonReiniciar {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Para pantallas de hasta 480px (móviles en modo vertical) */
+@media (max-width: 480px) {
+    .titulo {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #inputNumero {
+        width: 3rem;
+        font-size: 0.75rem;
+    }
+
+    #botonAdivinar, #botonReiniciar {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
